@@ -24,10 +24,10 @@ public class DeleteTopicMsg extends Message {
 
 	@Override
 	public String toString() {
-		return "DeleteTopicMsg [topic=" + topic + ", getTopic()=" + getTopic() + ", getType()=" + getType()
-				+ ", getUser()=" + getUser() + ", toString()=" + super.toString() + ", getClass()=" + getClass()
-				+ ", hashCode()=" + hashCode() + "]";
+		return "DeleteTopicMsg [topic=" + topic + "]";
 	}
+
+	
     
     
 

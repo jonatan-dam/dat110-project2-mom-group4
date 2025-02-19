@@ -25,11 +25,10 @@ public class SubscribeMsg extends Message {
 
 	@Override
 	public String toString() {
-		return "SubscribeMsg [topic=" + topic + ", getTopic()=" + getTopic() + ", getType()=" + getType()
-				+ ", getUser()=" + getUser() + ", toString()=" + super.toString() + ", getClass()=" + getClass()
-				+ ", hashCode()=" + hashCode() + "]";
+		return "SubscribeMsg [topic=" + topic + "]";
 	}
 
+	
     
 	
 		

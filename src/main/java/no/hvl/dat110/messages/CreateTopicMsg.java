@@ -24,10 +24,10 @@ public class CreateTopicMsg extends Message {
 
 	@Override
 	public String toString() {
-		return "CreateTopicMsg [topic=" + topic + ", getTopic()=" + getTopic() + ", getType()=" + getType()
-				+ ", getUser()=" + getUser() + ", toString()=" + super.toString() + ", getClass()=" + getClass()
-				+ ", hashCode()=" + hashCode() + "]";
+		return "CreateTopicMsg [topic=" + topic + "]";
 	}
+
+	
     
     
 

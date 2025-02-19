@@ -37,10 +37,10 @@ public class PublishMsg extends Message {
 
 	@Override
 	public String toString() {
-		return "PublishMsg [topic=" + topic + ", message=" + message + ", getTopic()=" + getTopic() + ", getMessage()="
-				+ getMessage() + ", getType()=" + getType() + ", getUser()=" + getUser() + ", toString()="
-				+ super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
+		return "PublishMsg [topic=" + topic + ", message=" + message + "]";
 	}
+
+	
 
 	
 	
